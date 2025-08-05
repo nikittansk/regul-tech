@@ -33,18 +33,18 @@
         $remote_ip = $_SERVER["REMOTE_ADDR"];
 
         // Тема письма. Для фильтров в гмайле.
-        $sub = "[Почта с сайта «Регулятор Карелина»]";
+        $sub = "[Почта с сайта «Регулятор \"Звезда\"»]";
 
         // Собственно, текст. Точнее, HTML.
         $mes = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-                <title>Почта с сайта «Регулятор Карелина»</title>
+                <title>Почта с сайта «Регулятор "Звезда"»</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             </head>
             <body style="margin: 0; padding: 0;">
-                <h2>Получено новое сообщение с сайта «Регулятор Карелина»</h2>
+                <h2>Получено новое сообщение с сайта «Регулятор "Звезда"»</h2>
                 <table rules="all" style="border-color: #666;" cellpadding="10" width="100%">
                 <tr>
                     <td width="20%">Имя:</td>
